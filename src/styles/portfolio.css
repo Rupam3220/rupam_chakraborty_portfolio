@@ -1,0 +1,49 @@
+#portfolio {
+    margin: 0 auto;
+    padding: 0 1rem;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    color: brown;
+}
+
+.portImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.portImg {
+    height: 17rem;
+    width: 17rem;
+    margin: 0.5rem;
+    object-fit: cover;
+}
+
+.portBtn {
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border-color: black;
+    color: brown;
+}
+
+@media screen and (max-width: 585px) {
+    .portImg {
+        height: 48vw;
+    }
+}

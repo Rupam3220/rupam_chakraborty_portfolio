@@ -1,0 +1,84 @@
+#experience {
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 65rem;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-top: 3rem;
+    color: brown;
+}
+
+.expBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.expBar {
+    margin: 1rem;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+
+.expBarImg {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+
+.expBarText>h2 {
+    color: brown;
+}
+.expBarText> {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    /* .skillDesc {
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .skillBarText>p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .skillDesc {
+        text-align: center;
+    }
+
+    .skillBarText>h2 {
+        font-size: 5vw;
+    }
+
+    .skillBarText>p {
+        font-size: 3vw;
+    }
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+}
